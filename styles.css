@@ -1,0 +1,75 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    height: 110px;
+}
+.nav-item, .nav-item-contacto {
+    height: 100%;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-item :hover {
+    filter: brightness(90%);
+}
+.btn-contacto {
+    background-color: white;
+    color: #1175ED;
+}
+.btn-contacto :hover{
+    background-color: red!important;
+    color: #1175ED;
+}
+.bg-blue-primary {
+    background-color: #1175ED;
+}
+.custom-card {
+    border-radius: 30px;
+    border: 3px #1175ED solid;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.card-title {
+    color: black;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.card-text {
+    color: #878787;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+
+.custom-right-card {
+    border-radius: 37px;
+    margin-bottom: 20px;
+    width: 950px;
+    .card-title {
+        color: black;
+        font-size: 22px;
+        font-family: Montserrat;
+        font-weight: 600;
+    }
+    
+    .card-text {
+        color: black;
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 500;
+    }
+    
+    .card-img-top {
+        border-top-left-radius: 37px;
+        border-top-right-radius: 37px;
+    }
+}
+  
+  
+  
